@@ -1,0 +1,217 @@
+html, body {
+    min-height: 80vh; /* Set a minimum height for the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #2aaaca, #fbf4f4);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+
+}
+
+.info-section{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 200px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/artvibe-logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-image{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    background-image: url("../images/main-pic.png");
+    background-size: contain ;   
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.test{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+
+
+.main-title{
+        display: flex;
+        color: #f0f0f0;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 0px 4px 4px #00000053;
+        font-size: 40pt;
+        position: relative;
+        margin: 0 50px 0 20px;
+        top: -600px; 
+}
+
+.p1{
+    display: flex;
+        color: #f0f0f0;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 0px 4px 4px #00000053;
+        font-size: 22pt;
+        position: relative;
+        margin: 0 50px 0 20px;
+        top: -700px; 
+} 
+
+.get-started .get{
+    width: 230px;
+    height: 90px;
+    position: relative;
+    margin: 0 50px 0 20px;
+    top: -685px;
+    background-color: #ffffff;
+    transition: 0.3s;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #00000069;
+}
+
+.get-started :hover{
+    background: transparent;
+    border-radius: 20px 50px;
+    transition: 0.3s;
+}
+
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+}
+
+
+
+
+.menubar { 
+    height: 7px; 
+    width: 50px; 
+    background-color: #000; 
+    border-radius: 10px;
+    margin: 7px; 
+    transition: 0.7s;
+} 
+
+.box {
+    height: 60px; 
+    width: 60px; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.menubar { 
+    z-index: -1;
+} 
+
+
+
+#checkbox {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#checkbox:checked ~ div:nth-of-type(1){ 
+    transform: translate(0, 22px) rotate(40deg); 
+    background-color: #2aaaca; 
+} 
+
+#checkbox:checked ~ div:nth-of-type(2){ 
+    opacity: 0; 
+} 
+
+#checkbox:checked ~ div:nth-of-type(3){ 
+    transform: translate(0, -17px) rotate(-40deg);
+    background-color: #2aaaca; 
+}
+
+.menu {
+    margin-right: 70%;
+    border-radius: 6%;
+    width: 100vh;
+    height: 70vh;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #2aaaca;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    padding: 10px;
+    align-content: center;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.list li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 160%;
+    font-weight: bold;
+    font-style: italic;
+}
+.list li:hover {
+    background-color: #f0f0f0;
+}
+#checkbox:checked ~ .menu {
+    display: block;
+}
+
+.footer {
+    background: linear-gradient(to left, #2aaaca, #fbf4f4);
+    padding: 170px 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.footer-logo{
+
+}
+
