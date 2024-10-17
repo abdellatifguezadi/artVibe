@@ -73,6 +73,27 @@
        width: 100px;
        height: 100px;
     }
+    .icondev{
+        width: 100px;
+        height: 100px;
+     }
+     .iconseo{
+        width: 100px;
+        height: 100px;
+     }
+     .iconmark{
+        width: 100px;
+        height: 100px;
+     }
+     .iconapp{
+        width: 100px;
+        height: 100px;
+     }
+     .iconerror{
+        width: 100px;
+        height: 100px;
+     }
+
 
 @media (max-width: 380px) {
     .box {
