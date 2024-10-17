@@ -249,7 +249,7 @@ select{
     background-color: #4ecae9;
     color: white;
     font-weight: bold;
-    border-radius: 7px ;
+    border-radius: 7px;
 
 }
 .button-contact:hover{
@@ -258,7 +258,7 @@ select{
     background-color: white;
     color: #2aaaca;
     font-weight: bold;
-    border-radius: 20px 10px;
+    border-radius: 20px;
     transition: .3s;
 
 }
@@ -342,7 +342,7 @@ footer {
 
 .social-icons {
     display: flex;
-    gap: 470px;
+    gap: 500px;
 }
 
 .social-icons :hover{
@@ -462,12 +462,3 @@ footer {
     
 }
 
-.sign-up-section{
-    flex-direction:column-reverse;
-    align-items: center;
-}
-
-.sign-up-title{
-    flex-direction: column-reverse;
-
-}
