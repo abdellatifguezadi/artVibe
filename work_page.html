@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/work_page.css">
     <link rel="stylesheet" href="css/responsive_work_page.css">
+    <link rel="stylesheet" href="css/header_footer_responsive.css">
 </head>
 <body>
     <header>
@@ -16,13 +17,13 @@
         <div class="header_list_work">
             <h1>My Work</h1>
             <ul class="work_list">
-                <li><button onclick="toggleSection('all_btn', 'list_work', true)" class="list_link active"id="all_btn">All</button></li>
-                <li><button onclick="toggleSection('dsn_btn', 'design', true)" class="list_link" id="dsn_btn">Design</button></li>
-                <li><button onclick="toggleSection('dev_btn', 'development', true)" class="list_link" id="dev_btn">Development</button></li>
-                <li><button onclick="toggleSection('seo_btn', 'seo', true)" class="list_link" id="seo_btn">Seo</button></li>
-                <li><button onclick="toggleSection('mark_btn', 'marketing', true)" class="list_link"  id="mark_btn">Marketing</button></li>
-                <li><button onclick="toggleSection('app_btn', 'app_development', true)" class="list_link" id="app_btn">App Development</button></li>
-                <li><button onclick="toggleSection('err_btn', 'error_fixing', true)" class="list_link" id="err_btn">Error Fixing</button></li>    
+                <li><button onclick="window.location.href='#';" class="list_link active" id="all_btn"><a href="#seo">All</a></button></li>
+                <li><button onclick="window.location.href='#design';"  class="list_link" id="dsn_btn">Design</button></li>
+                <li><button onclick="window.location.href='#dev';"  class="list_link" id="dev_btn">Development</button></li>
+                <li><button onclick="window.location.href='#seo';"  class="list_link" id="seo_btn">Seo</button></li>
+                <li><button onclick="window.location.href='#mark';"  class="list_link"  id="mark_btn">Marketing</button></li>
+                <li><button onclick="window.location.href='#app';"  class="list_link" id="app_btn">App Development</button></li>
+                <li><button onclick="window.location.href='#error';"  class="list_link" id="err_btn">Error Fixing</button></li>    
             </ul>
         </div>
         <div class="box"> 
@@ -32,18 +33,26 @@
             <div class="menubar"></div>
             <nav class="menu">
                 <ul class="list">
+                <li>
                     <a href="HomePage.html">
-                    <li>Home</li>
-                </a>
-                <a href="services.html">
-                    <li>Services</li>
-                </a>
-                <a href="work_page.html">
-                    <li>Work</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
+                    Home
+                    </a>
+                </li>
+                <li>
+                    <a href="services.html">
+                        Services
+                    </a>
+                </li>
+                <li>
+                        <a href="work_page.html">Work
+                          </a>
+                    </li>
+              
+                    <li>
+                        <a href="contact.html">
+                        Contact
+                    </a>
+                    </li>
                 </ul>
             </nav>
         </div>
