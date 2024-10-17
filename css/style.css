@@ -1,5 +1,5 @@
 html, body {
-    min-height: 80vh; /* Set a minimum height for the viewport */
+    min-height: 80vh;
     margin: 0;
     padding: 0;
 }
@@ -447,7 +447,7 @@ footer {
 }
 
 .cader{
-    width:200px;
+    
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -464,6 +464,26 @@ footer {
     justify-content: space-around;
     
 }
+.more-text {
+    display: none;
+    transition: opacity .8s ;
+    text-align: center;
+  }
+  
+  .cader:hover .more-text {
+    display: block; 
+    opacity: 1;
+    padding: 5px;
+  }
+  .cader:hover .cashe {
+    display: none; 
+  }
+  .cader:hover{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 3px black;
+    width:400px;
+  }
 
 .sign-up-section{
     display: flex;
