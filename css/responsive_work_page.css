@@ -1,0 +1,155 @@
+@media (max-width: 2600px) {
+    .box {
+        right: 0%;
+        top: 0%;
+    } 
+    .social-icons {
+        gap: 513px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .group_work div {
+        height: auto;
+    }
+
+}
+/* footer responsive */
+@media (max-width: 1024px) {
+    /* footer responsive */
+    .footer2 {
+        gap: 19%;
+    }
+    .social-icons {
+        gap: 412px;
+    }
+    /* ================== */
+    .hidden_text{
+        display: none;
+    }
+
+}
+@media (max-width: 992px) {
+    /* .logo {
+        width: 158px;
+    }
+    .header_list_work h1 {
+        font-size: 24px;
+    }
+    .menubar {
+        height: 4px;
+        width: 41px;
+    }
+    .box {
+        right: -6;
+    }
+    .work_list{
+        justify-content: flex-start;
+    }
+    .work_list li button {
+        font-size: 10px;
+    } */
+
+}
+
+@media (max-width: 768px) {
+    /* footer responsive */
+    .social-icons {
+        gap: 282px;
+    }
+    .footer2 {
+        gap: 2%;
+    }
+    /* ================== */
+    .logo {
+        width: 137px;
+        margin: 1%;
+    }
+    .work_list {
+        padding: 0%;
+    }
+    .work_list li {
+        width: 10%;
+    }
+    .work_list li button {
+        font-size: 10px;
+    }
+    .box {
+        top: 2%;
+    }
+    .group_work div {
+        border-radius: 2%;
+    }
+
+
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {
+    .social-icons a img {
+        width: 55px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .footer2 {
+        display: block;
+        gap: 250px;
+        text-align: center;
+    }
+    .social-icons {
+        gap: 112px;
+    }
+    .header_list_work{
+        position: relative;
+        top: -19%;
+        width: 118%;
+    }
+    .all_work {
+        margin-top: 10%;
+    }
+    .group_work {
+        display: block;
+    }
+    .work_list li button {
+        font-size: 5px;
+    }
+
+    /* .header_list_work h1 {
+        font-size: 24px;
+    }
+    .header_list_work{
+        width: 100px;
+        justify-content: flex-start;
+    }
+    .work_list{
+        justify-content: flex-start;
+    }
+    .work_list li button {
+        font-size: 10px;
+    } */
+}
+
+@media (max-width: 380px) {
+    .box {
+        right: 0.5%;
+    }
+    .social-icons {
+        gap: 85px;
+    }
+    .work_list {
+        width: 90%;
+    }
+    .work_list li {
+        width: 20%;
+    }
+    .header_list_work {
+        width: 98%;
+        right: -3%;
+    }
+
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {}
