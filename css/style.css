@@ -453,7 +453,7 @@ footer {
 }
 
 .cader{
-    width:300px;
+    
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -491,6 +491,7 @@ footer {
     background-color: white;
     border-radius: 20px;
     box-shadow: 10px 10px 3px black;
+    width:400px;
   }
 
 .margin-app{
