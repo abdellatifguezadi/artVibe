@@ -1,0 +1,68 @@
+@media (max-width: 320px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden; 
+    }
+
+    .menu {
+        margin-right: 70%;
+        border-radius: 6%;
+        width: 100%;
+        height: auto;
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: -45%;
+        background-color: #2aaaca;
+        box-shadow: 10px 10px 5px rgb(0, 0, 0);
+        padding: 10px;
+        align-content: center;
+        z-index: 2;
+    }
+    
+    .main-image{
+        border: 1px solid black;
+        width: 50%;
+        position: relative;
+        top: -200px;
+
+        
+    }
+
+
+    .main-title{
+        border: 1px solid black;
+        font-size: small;
+    }
+
+    .p1{
+        border: 1px solid black;
+        font-size: x-small;
+        margin-top: 100px;
+        margin-left: 0%;
+
+    }
+
+    .get-started .get{
+        height: 40px;
+        width: 25%;
+        font-size: small;
+    
+    }
+
+ 
+
+    .titles{
+        display: flex;
+        flex-direction:column;
+    }
+
+   
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {}
