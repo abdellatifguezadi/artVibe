@@ -342,7 +342,7 @@ footer {
 
 .social-icons {
     display: flex;
-    gap: 500px;
+    gap: 470px;
 }
 
 .social-icons :hover{
@@ -463,11 +463,11 @@ footer {
 }
 
 .sign-up-section{
-    display: flex;
-    align-items: center;
     flex-direction:column-reverse;
+    align-items: center;
 }
 
 .sign-up-title{
+    flex-direction: column-reverse;
 
 }
