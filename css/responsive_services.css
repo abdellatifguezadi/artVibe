@@ -1,14 +1,10 @@
-@media (max-width: 2600px) {
-    .box {
-        right: px;
-        top: 12px;
-    } 
-}
-
 
 
 
 @media (max-width: 1040px) {
+    html{
+        width: 100%;
+    }
     .cader {
         width: 80%;
         margin-bottom: 8%;
@@ -37,7 +33,6 @@
 
 
 
-@media (max-width: 576px) {}
 
 @media (max-width: 480px) {
 
@@ -114,5 +109,3 @@
 
     }
 }
-
-@media (min-width: 1200px) {}

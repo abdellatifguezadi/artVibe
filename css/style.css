@@ -168,17 +168,18 @@ header {
 
 .menu {
     margin-right: 70%;
-    border-radius: 6%;
+    border-radius: 4%;
     width: 200px;
     height: auto;
     display: none;
     position: absolute;
     top: 60px;
-    right: 0;
+    right: -45%;
     background-color: #2aaaca;
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
     padding: 10px;
     align-content: center;
+    z-index: 2;
 }
 .list {
     list-style-type: none;
@@ -295,8 +296,8 @@ header {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 33px;
+    margin-bottom: 33px;
  }
 /* contact us */
 
