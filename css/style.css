@@ -169,17 +169,18 @@ header {
 
 .menu {
     margin-right: 70%;
-    border-radius: 6%;
-    width: 100vh;
-    height: 70vh;
+    border-radius: 4%;
+    width: 200px;
+    height: auto;
     display: none;
     position: absolute;
     top: 60px;
-    right: 0;
+    right: -45%;
     background-color: #2aaaca;
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
     padding: 10px;
     align-content: center;
+    z-index: 2;
 }
 .list {
     list-style-type: none;
@@ -208,6 +209,97 @@ header {
 
 /*list*/
 /* contact us */
+.margin-h1{ 
+    margin-top: 0px; 
+    margin-bottom: 15px;
+ } 
+ 
+ .margin-p{ 
+    margin-top: 0px; 
+    margin-bottom: 15px;
+ } 
+ 
+ .contact{ 
+    padding: 30px;
+    width: 400px;
+    height: 520px;
+ } 
+ 
+ .input-style{ 
+    width: 350px;
+    height: 40px;
+    background-color: #fbf4f4; 
+    color: black; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+ } 
+ 
+ .input-style2{ 
+    width: 350px;
+    height: 120px;
+    background-color: #fbf4f4; 
+    color: black; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+ } 
+ 
+ select{ 
+    background-color: #fbf4f4; 
+    height: 40px;
+    width: 366px;
+    border-radius: 10px;
+    border: 1px 0 solid black;
+    padding: 10px;
+ } 
+ 
+ .button-contact{ 
+    width: 150px;
+    height: 40px;
+    background-color: #4ecae9; 
+    color: white; 
+    font-weight: bold; 
+    border-radius: 10px;
+ } 
+ 
+ .button-contact:hover{ 
+    width: 150px;
+    height: 40px;
+    background-color: white; 
+    color: #2aaaca; 
+    font-weight: bold; 
+    border-radius: 25px 12px;
+    transition: .3s; 
+ } 
+ 
+ .img-size{ 
+    width: 440px;
+    height: 560px;
+ } 
+ 
+ .img-contact { 
+    width: inherit; 
+    height: inherit; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("../img/contact\ pic.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: 1px solid black;
+    box-shadow: 3px 3px 20px gray;
+ } 
+ 
+ .contact-fin{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 33px;
+    margin-bottom: 33px;
+ }
 .margin-h1{
     margin-top: 0px;
     margin-bottom: 7px;
@@ -345,7 +437,7 @@ footer {
 
 .social-icons {
     display: flex;
-    gap: 500px;
+    gap: 10px;
 }
 
 .social-icons :hover{
@@ -491,7 +583,16 @@ footer {
     flex-direction:column-reverse;
 }
 
-.sign-up-title{
-    display: flex;
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
+.list li a {
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    height: inherit;
+    padding-top: 20%;
+    
 }
