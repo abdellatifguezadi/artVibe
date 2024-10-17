@@ -195,9 +195,10 @@ header {
     font-weight: bold;
     font-style: italic;
 }
-.list li:hover {
+ .list li:hover {
     background-color: #f0f0f0;
-}
+} 
+
 #checkbox:checked ~ .menu {
     display: block;
 }
@@ -248,7 +249,7 @@ select{
     background-color: #4ecae9;
     color: white;
     font-weight: bold;
-    border-radius: 7px;
+    border-radius: 7px ;
 
 }
 .button-contact:hover{
@@ -257,7 +258,7 @@ select{
     background-color: white;
     color: #2aaaca;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 20px 10px;
     transition: .3s;
 
 }
@@ -296,7 +297,6 @@ footer {
     background: linear-gradient(to left, #2aaaca, #fbf4f4);
     padding: 10px 0;
 }
-
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -325,7 +325,6 @@ footer {
     list-style-type: none;
     padding: 0;
 }
-
 .footer-section ul li {
     margin-bottom: 10px;
 }
@@ -350,10 +349,7 @@ footer {
   box-shadow: 0 8px 25px rgba(57, 8, 172, 0.3);
   border-radius: 26px;
   transition: 0.3s;
-    
-}
-.oussama{
-    display: none;
+
 }
 
 
@@ -380,4 +376,87 @@ footer {
 
 .footer-logo a img{
     width: 400px;
+}
+
+.size-h1{
+    margin-left: 40px; 
+    font-family:Arial, sans-serif;
+}
+.size-p{
+    margin-left: 60px;  
+    font-size: 20px;
+    width: 900px;
+}
+.icondesigne{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/illustration.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.iconmark{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/digital-marketing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.iconseo{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/seo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.icondev{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/software-developer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.iconapp{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/developpement-dapplications.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.iconerror{
+    width: 150px;
+    height: 150px;
+    background-image:url(../images/erreur.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.services-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cader{
+    width:200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.padding-text-services{
+    padding: 5px;
+}
+.global-services{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 }
