@@ -249,7 +249,7 @@ select{
     background-color: #4ecae9;
     color: white;
     font-weight: bold;
-    border-radius: 7px;
+    border-radius: 7px ;
 
 }
 .button-contact:hover{
@@ -258,7 +258,7 @@ select{
     background-color: white;
     color: #2aaaca;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 20px 10px;
     transition: .3s;
 
 }
@@ -465,7 +465,7 @@ footer {
 .sign-up-section{
     display: flex;
     align-items: center;
-    flex-direction: ;
+    flex-direction:column-reverse;
 }
 
 .sign-up-title{
