@@ -1,4 +1,13 @@
 
+
+.logo-work .logo-img {
+    width: 14%;
+    height: auto;
+    margin-top: -3.5%;
+}
+.logo-work {
+    background-image: none;
+}
 .box {
     width: 200px;
     margin-top: 1%;
