@@ -311,7 +311,6 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
     padding: 10px 0;
     max-width: 1200px;
     margin: auto;
@@ -348,11 +347,10 @@ footer {
 }
 
 
+
 .social-icons {
     display: flex;
-    gap: 500px;
-    border: 1px solid #444;
-
+    justify-content: space-around;
 }
 
 .social-icons :hover{
@@ -382,7 +380,8 @@ footer {
 }
 .footer2{
     display: flex;
-    gap: 250px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .footer-logo a img{
