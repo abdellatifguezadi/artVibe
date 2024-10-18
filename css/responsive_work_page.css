@@ -1,0 +1,93 @@
+
+
+@media (max-width: 1440px) {
+    .group_work div {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .hidden_text{
+        /* display: none; */
+        font-size: 10px;
+    }
+    .menu {
+        margin-right: 70%;
+        border-radius: 6%;
+        width: 100%;
+        height: auto;
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: -45%;
+        background-color: #2aaaca;
+        box-shadow: 10px 10px 5px rgb(0, 0, 0);
+        padding: 10px;
+        align-content: center;
+        z-index: 2;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .work_list {
+        padding: 0%;
+    }
+    .work_list li {
+        width: 10%;
+    }
+    .work_list li button {
+        font-size: 10px;
+    }
+    .group_work div {
+        border-radius: 2%;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .header_list_work {
+        position: relative;
+        top: -19%;
+        width: 103%;
+        right: 3%;
+    }
+    .all_work {
+        margin-top: 10%;
+    }
+    .group_work {
+        display: block;
+    }
+    .work_list li button {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .work_list {
+        width: 90%;
+    }
+    .work_list li {
+        width: 20%;
+    }
+    .header_list_work {
+        width: 98%;
+        right: -3%;
+    }
+
+    .header_list_work {
+        position: relative;
+        top: -19%;
+        width: 96%;
+        right: -4%;
+    }
+
+
+}

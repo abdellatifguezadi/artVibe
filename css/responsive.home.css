@@ -1,0 +1,145 @@
+@media (max-width: 1440px){
+    .info-section{
+        height: 900px;
+    }
+
+}
+@media (max-width: 1200px){
+
+    .info-section{
+        margin-bottom: 465px;
+        height: 600px;
+    }
+
+    .main-image{
+        width: 430px;
+    }
+
+    .p1{
+        margin: 0 5px 20px 130px;
+        text-align: center;
+    }
+
+    .get-started .get{
+        text-align: center;
+        width: 350px;
+        height: 100px;
+        margin: 0 0 0 215px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .info-section{
+        margin-bottom: 0px;
+        height: 300px;
+    }
+
+    .main-title{
+        font-size: large;
+        margin-bottom: 80px;
+        text-align: center;
+        margin-left: 110px;
+        width: 250px;
+        
+    }
+
+    .test{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-image{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 560px;
+    }
+
+    .p1{
+        margin: 0 0 0 100px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .get-started .get{
+        margin-left: 130px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 430px){
+    .main-image{
+        margin-left: 130px;
+    }
+
+    .info-section{
+        height: 110vh;  
+        width: 280px; 
+    }
+   
+    .main-title{
+        font-size: x-large;
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    .p1{
+        margin-left: 130px;
+    }
+    .get-started .get{
+        margin-left: 120px;
+    }
+
+
+}
+
+@media (max-width: 410px){
+
+    .main-image{
+        margin-bottom: 598px;
+        margin-left: 80px;
+    }
+
+    .main-title{
+        width: 340px;
+        margin-left: 30px;
+        font-size: larger;
+    }
+
+    .info-section{
+        margin-bottom: 5px;
+    }
+
+        .get-started .get{
+            margin-left: 120px;
+            font-size: medium;
+            width: 150px;
+            height: 50px;
+
+        }
+  
+}
+
+
+@media (max-width: 375px){
+
+
+
+        .main-title{
+            width: 300px;
+        }
+
+        .p1{
+            margin-left: 25px;
+        }
+
+        .get-started .get{
+            margin-left: 95px;
+            font-size: medium;
+            width: 150px;
+            height: 50px;
+        }
+
+
+
+}
