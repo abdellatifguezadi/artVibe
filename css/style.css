@@ -368,6 +368,7 @@ header {
     border: 1px solid black;
     box-shadow: 10px 10px 13px white;
     height: 350px;
+    max-width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
