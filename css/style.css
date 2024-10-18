@@ -18,13 +18,13 @@ header {
 
 
 .logo {
-    width: 200px;
+    width: 300px;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../images/artvibe-logo.png");
-    background-size: cover;
+    background-size: contain ;
     background-position: center;
     background-repeat: no-repeat;
 }
