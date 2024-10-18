@@ -10,7 +10,7 @@
 @media (max-width: 1230px) {
     .hidden_text{
         /* display: none; */
-        font-size: 10px;
+        font-size: 9px;
     }
     .menu {
         margin-right: 70%;
