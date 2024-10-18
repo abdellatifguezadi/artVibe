@@ -1,0 +1,147 @@
+
+@media (max-width: 1440px) {
+    .box {
+        right: 1%;
+        top: 2%;
+    }
+  
+}
+@media (max-width: 1040px){
+    .logo {
+        width: 137px;
+        margin: 1%;
+    }
+    .contact-fin{
+        margin-top: 80px;
+    }
+  .contact{
+    width: 300px;
+    height: 550px;
+    padding-bottom: 0px;
+    padding-top: 150px;
+  }
+  .img-size{
+    width: 350px;
+    height: 500px;
+  }
+  .input-style {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+  select {
+    height: 36px;
+    width: 310px;
+    border-radius: 10px;
+    padding: 5px;
+   }
+   .input-style2 {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+ }
+
+}
+@media (max-width: 760px) {
+
+    /* .logo {
+        width: 137px;
+        margin: 1%;
+    } */
+  .contact{
+    width: 260px;
+    height: 450px;
+    padding-bottom: 0px;
+  }
+  .img-size{
+    width: 260px;
+    height: 450px;
+  }
+  .input-style {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+  select {
+    height: 35px;
+    width: 265px;
+    border-radius: 10px;
+    padding: 5px;
+   }
+   .input-style2 {
+    width: 250px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    /* .logo {
+        width: 137px;
+        margin: 1%;
+    } */
+    .contact-fin{
+    flex-direction: column;
+
+    }
+    .contact{
+      width: 260px;
+      height: 350px;
+      padding-bottom: 0px;
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+    .img-size{
+      width: 280px;
+      height: 350px;
+    }
+    .input-style {
+      width: 250px;
+      height: 20px;
+      margin-bottom: 5px;
+   }
+    select {
+      height: 26px;
+      width: 265px;
+      border-radius: 10px;
+      padding: 5px;
+     }
+     .input-style2 {
+      width: 250px;
+      height: 50px;
+      margin-bottom: 5px;
+      margin-top: 10px;
+   }
+  }
+
+
+
+ 
+
+@media (max-width: 750px) {
+    /* .box {
+     right: 0.5%;
+    } */
+
+    cader {
+        width: 95%;
+        margin-bottom: 8%;
+        
+    }
+
+}
+
+@media (max-width: 416px) {
+    .global-services {
+        margin-left: 25%;
+
+    }
+}

@@ -1,81 +1,73 @@
-@media (max-width: 2600px) {
-    .social-icons {
-        gap: 513px;
-    }
+@media (max-width: 1440px) {
+
     .box {
         right: 1%;
         top: 0%;
     } 
+    .logo {
+        width: 300px;
+        margin: 1%;
+    }
+    .logo-work .logo-img {
+        width: 14%;
+        height: auto;
+        margin-top: -3.5%;
+    }
+    
 }
+
+    
+    
+
+
 
 @media (max-width: 1024px) {
-
-    .footer2 {
-        gap: 19%;
-    }
-    .social-icons {
-        gap: 412px;
-    }
-
-}
-
-
-@media (max-width: 768px) {
-    .social-icons {
-        gap: 282px;
-    }
-    .footer2 {
-        gap: 2%;
-    }
     .logo {
-        width: 137px;
+        width: 200px;
         margin: 1%;
     }
     .box {
         top: 2%;
     }
+    .logo-work .logo-img {
+        width: 19%;
+        height: auto;
+        margin-top: -3.5%;
+    }
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 769px) {
     .box {
         right:1%;
     }
-    .social-icons a img {
-        width: 55px;
-        padding-left: 6%;
-        padding-right: 6%;
+    .logo-work .logo-img {
+        width: 22%;
+        height: auto;
+        margin-top: -3.5%;
     }
-    .footer2 {
-        display: block;
-        gap: 250px;
-        text-align: center;
-    }
-    .social-icons {
-        gap: 112px;
-    }
-
 }
 
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     .box {
         right: 0.5%;
         right:1%;
     }
-    .social-icons {
-        gap: 85px;
-    }
-    .footer-logo a img {
-        width: 375px;
-    }
-
-}
-
-@media (max-width: 360px) {
-    .social-icons {
-        gap: 57px;
-    }
-    .footer-logo a img {
-        width: 321px;
+    .logo-work .logo-img {
+        width: 32%;
+        height: auto;
+        margin-top: -6.5%;
     }
 }
+@media (max-width: 426px) {
+    .box {
+        right: 0.5%;
+        right:1%;
+    }
+    .logo-work .logo-img {
+        width: 32%;
+        height: auto;
+        margin-top: -6.5%;
+    }
+}
+

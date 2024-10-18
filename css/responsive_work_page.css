@@ -7,10 +7,10 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1230px) {
     .hidden_text{
         /* display: none; */
-        font-size: 10px;
+        font-size: 9px;
     }
     .menu {
         margin-right: 70%;
@@ -31,7 +31,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
 
 
     .work_list {
@@ -50,7 +50,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
 
     .header_list_work {
         position: relative;
@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 416px) {
 
     .work_list {
         width: 90%;

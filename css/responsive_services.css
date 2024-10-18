@@ -10,9 +10,10 @@
         margin-bottom: 8%;
         margin-left: 25px;
     }
+  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
 
     .logo {
         width: 137px;
@@ -34,7 +35,7 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 749px) {
 
     .logo {
         width: 137px;
@@ -90,7 +91,7 @@
      }
 
 
-@media (max-width: 380px) {
+@media (max-width: 416px) {
     .box {
      right: 0.5%;
     }
@@ -101,6 +102,113 @@
         
     }
 
+}
+
+@media (max-width: 360px) {
+    .global-services {
+        margin-left: 25%;
+
+    }
+}
+
+
+@media (max-width: 1040px) {
+    html{
+        width: 100%;
+    }
+    .cader {
+        width: 80%;
+        margin-bottom: 8%;
+        margin-left: 25px;
+    }
+  
+}
+
+@media (max-width: 1010px) {
+
+    .logo {
+        width: 137px;
+        margin: 1%;
+    }
+    .center {
+        padding: 0%;
+    }
+    
+    .services-display{
+        gap: 29px;
+    }
+    .global-services{
+        width: 95%;
+        margin-left: 3%;
+}
+    }
+
+
+
+
+@media (max-width: 749px) {
+
+    .logo {
+        width: 137px;
+        margin: 1%;
+    }
+    .center {
+        padding: 0%;
+    }
+    
+    .services-display{
+        gap: 29px;
+        flex-direction: column;
+       
+    }
+    .global-services{
+        width: 55%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 20%;
+}
+    }
+    .cader{
+        width: 87%;
+        margin-bottom: 8%;
+        margin-left: 25px;
+    }
+    body{
+        height: 10%;
+    }
+    .icondesigne{
+       width: 100px;
+       height: 100px;
+    }
+    .icondev{
+        width: 100px;
+        height: 100px;
+     }
+     .iconseo{
+        width: 100px;
+        height: 100px;
+     }
+     .iconmark{
+        width: 100px;
+        height: 100px;
+     }
+     .iconapp{
+        width: 100px;
+        height: 100px;
+     }
+     .iconerror{
+        width: 100px;
+        height: 100px;
+     }
+
+
+@media (max-width: 480px) {
+    
+        .info-section{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+        }
 }
 
 @media (max-width: 360px) {
