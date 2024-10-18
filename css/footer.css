@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+}
+.footer-left{
+    margin-right: 15%;
+    margin-left: 10%;
+}
+.footer-logo{
+    height: 41%;
+}
+.footer-logo-img {
+    width: 56%;
+    margin-top: -12%;
+    margin-left: -10%;
+}
+.footer-icons img {
+    width: 4%;
+}
+
