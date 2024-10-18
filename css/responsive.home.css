@@ -1,10 +1,14 @@
 @media (max-width: 1440px){
     .info-section{
-        height: 900px;
+        height: 680px;
+    }
+    .box{
+        margin-top: 1%;
     }
 
 }
 @media (max-width: 1200px){
+    
 
     .info-section{
         margin-bottom: 465px;
@@ -16,31 +20,49 @@
     }
 
     .p1{
-        margin: 0 5px 20px 130px;
+        margin-left: 25%;
+        margin-top: 5%;
         text-align: center;
+        width: 60%;
     }
 
     .get-started .get{
-        text-align: center;
+        margin-left: 33%;
         width: 350px;
         height: 100px;
-        margin: 0 0 0 215px;
+       
     }
+    .menu {
+        margin-right: 70%;
+        border-radius: 4%;
+        width: 200px;
+        height: auto;
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: -45%;
+        background-color: #2aaaca;
+        box-shadow: 10px 10px 5px rgb(0, 0, 0);
+        padding: 10px;
+        align-content: center;
+        z-index: 2;
+    }
+    
 }
 
-@media (max-width: 480px){
+@media (max-width: 701px){
 
     .info-section{
-        margin-bottom: 0px;
+        margin-bottom: 60%;
         height: 300px;
     }
 
     .main-title{
-        font-size: large;
-        margin-bottom: 80px;
+        font-size: xx-large;
+        margin-bottom: 10%;
         text-align: center;
-        margin-left: 110px;
-        width: 250px;
+        margin-left: 12%;
+        width: 746px;
         
     }
 
@@ -58,11 +80,12 @@
     .p1{
         margin: 0 0 0 100px;
         text-align: center;
-        font-size: medium;
+        font-size: large;
+        margin-left: 27%;
     }
 
     .get-started .get{
-        margin-left: 130px;
+        margin-left: 35%;
         width: 200px;
     }
 }
@@ -70,17 +93,21 @@
 @media (max-width: 430px){
     .main-image{
         margin-left: 130px;
+        margin-top: 165%;
     }
 
     .info-section{
         height: 110vh;  
         width: 280px; 
     }
+
+    
    
     .main-title{
         font-size: x-large;
-        margin-left: 10px;
+        margin-left: 205%;
         width: 400px;
+        margin-bottom: 20%;
     }
 
     .p1{
@@ -88,6 +115,7 @@
     }
     .get-started .get{
         margin-left: 120px;
+        margin-bottom: 20%;
     }
 
 
@@ -102,8 +130,11 @@
 
     .main-title{
         width: 340px;
-        margin-left: 30px;
+        margin-left: 195%;
         font-size: larger;
+    }
+    .p1{
+        margin-left: 30%;
     }
 
     .info-section{
@@ -111,11 +142,11 @@
     }
 
         .get-started .get{
-            margin-left: 120px;
+            margin-left: 30%;
             font-size: medium;
             width: 150px;
             height: 50px;
-
+            margin-bottom: 5%;
         }
   
 }
@@ -142,4 +173,21 @@
 
 
 
+}
+
+@media (max-width: 325px){
+
+    .main-image{
+        margin-left: 10%;
+        margin-top: 220%;
+    }
+
+    .main-title{
+        margin-left: 170%;
+        margin-bottom: 25%;
+    }
+
+    .get-started .get{
+        margin-left: 25%;
+    }
 }
