@@ -1,5 +1,9 @@
 
-
+.logo {
+    background-image: none;
+    height: auto;
+    margin-top: -5.5%;;
+}
 .box {
     width: 200px;
     margin-top: 1%;
