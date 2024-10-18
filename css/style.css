@@ -460,11 +460,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 10px 15px white;
+    
     border-radius: 30px;
 }
 .padding-text-services{
     padding: 5px;
+    box-shadow: 0px 10px 15px white;
     text-align: center;
 }
 .global-services{
