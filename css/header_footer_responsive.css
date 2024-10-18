@@ -4,6 +4,11 @@
         right: 1%;
         top: 0%;
     } 
+    .logo {
+        width: 300px;
+        margin: 1%;
+    }
+    
 }
 
     
@@ -13,7 +18,7 @@
 
 @media (max-width: 1010px) {
     .logo {
-        width: 137px;
+        width: 200px;
         margin: 1%;
     }
     .box {
