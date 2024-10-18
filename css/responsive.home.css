@@ -102,7 +102,8 @@
     }
 
     .info-section{
-        height: 110vh;  
+        height: 120vh;
+        margin-bottom: 25%;  
         width: 280px; 
     }
 
@@ -155,32 +156,86 @@
         }
   
 }
-
-
-@media (max-width: 375px){
+@media (max-width: 500px){
 
 
 
-        .main-title{
-            width: 300px;
-        }
+    .main-title{
+        width: 100px;
+    }
 
-        .p1{
-            margin-left: 25px;
-        }
+    .p1{
+        margin-left: 35%;
+    }
+    
 
-        .get-started .get{
-            margin-left: 95px;
-            font-size: medium;
-            width: 150px;
-            height: 50px;
-        }
+
+    .get-started .get{
+        margin-left: 40%;
+        font-size: medium;
+        width: 150px;
+        height: 50px;
+    }
 
 
 
 }
 
-@media (max-width: 325px){
+
+@media (max-width: 430px){
+
+
+
+        .main-title{
+            width: 200px;
+        }
+
+        .p1{
+            margin-left: 35%;
+        }
+        
+
+
+        .get-started .get{
+            margin-left: 40%;
+            font-size: medium;
+            width: 150px;
+            height: 50px;
+        }
+    
+
+}
+
+@media (max-width: 410px){
+
+    .main-image{
+        margin-bottom: 598px;
+        margin-left: 80px;
+    }
+
+    .main-title{
+        width: 340px;
+        margin-left: 195%;
+        font-size: larger;
+    }
+    .p1{
+        margin-left: 30%;
+    }
+
+    .info-section{
+        margin-bottom: 5px;
+    }
+
+        .get-started .get{
+            margin-left: 30%;
+            font-size: medium;
+            width: 150px;
+            height: 50px;
+            margin-bottom: 5%;
+        }
+    }
+
+@media (max-width: 370px){
 
     .main-image{
         margin-left: 10%;
@@ -188,11 +243,34 @@
     }
 
     .main-title{
-        margin-left: 170%;
+        margin-left: 180%;
         margin-bottom: 25%;
+    }
+    .p1{
+        margin-left: 30%;
     }
 
     .get-started .get{
-        margin-left: 25%;
+        margin-left: 35%;
+    }
+}
+@media (max-width: 323px){
+
+    .main-image{
+        margin-left: 10%;
+        margin-top: 220%;
+    }
+
+    .main-title{
+        margin-left: 155%;
+        margin-bottom: 25%;
+        width: 300px;
+    }
+    .p1{
+        margin-left: 15%;
+    }
+
+    .get-started .get{
+        margin-left: 35%;
     }
 }
