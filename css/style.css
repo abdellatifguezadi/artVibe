@@ -46,12 +46,13 @@ header {
 .test{
     display: flex;
     justify-content: flex-end;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .titles{
     display: flex;
     flex-direction: column;
+
 }
 
 .main-title{
@@ -64,7 +65,6 @@ header {
         font-size: 40pt;
         position: relative;
         margin: 50 428px 0 20px;
-        top: -600px; 
 }
 
 .p1{
@@ -77,15 +77,13 @@ header {
         font-size: 22pt;
         position: relative;
         margin: 0 50% 0 20px;
-        top: -700px; 
 } 
 
 .get-started .get{
     width: 230px;
     height: 90px;
     position: relative;
-    margin: 0 50px 0 20px;
-    top: -685px;
+    margin: 0 5px 0 2px;
     background-color: #ffffff;
     transition: 0.3s;
     font-size: xx-large;
