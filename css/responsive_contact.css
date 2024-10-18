@@ -1,5 +1,9 @@
 
-@media (max-width: 1040px) {
+@media (max-width: 1440px) {
+    .box {
+        right: 1%;
+        top: 2%;
+    }
   
 }
 @media (max-width: 1040px){
@@ -41,47 +45,49 @@
 }
 @media (max-width: 760px) {
 
-    .logo {
+    /* .logo {
         width: 137px;
         margin: 1%;
-    }
+    } */
   .contact{
-    width: 250px;
+    width: 260px;
     height: 450px;
     padding-bottom: 0px;
   }
   .img-size{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 450px;
   }
   .input-style {
     width: 250px;
-    height: 20px;
+    height: 30px;
     margin-bottom: 5px;
  }
   select {
-    height: 26px;
+    height: 35px;
     width: 265px;
     border-radius: 10px;
     padding: 5px;
    }
    .input-style2 {
     width: 250px;
-    height: 50px;
-    margin-bottom: 5px;
-    margin-top: 20px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
  }
 }
-    
 
 
 
-@media (max-width: 750px) {
 
-    .logo {
+
+
+@media (max-width: 700px) {
+
+    /* .logo {
         width: 137px;
         margin: 1%;
-    }
+    } */
     .contact-fin{
     flex-direction: column;
 
@@ -120,10 +126,10 @@
 
  
 
-@media (max-width: 380px) {
-    .box {
+@media (max-width: 750px) {
+    /* .box {
      right: 0.5%;
-    }
+    } */
 
     cader {
         width: 95%;
@@ -133,7 +139,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 416px) {
     .global-services {
         margin-left: 25%;
 
